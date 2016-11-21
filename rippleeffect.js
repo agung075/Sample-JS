@@ -143,7 +143,7 @@
       });
     }
   };
-  $.fn.ripples = function(options) {
+  $.fn.rippleEffects = function(options) {
     return this.each(function() {
       if(!$.data(this, "plugin_" + ripples)) {
         $.data(this, "plugin_" + ripples, new Ripples(this));
